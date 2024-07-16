@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Drunken Monkey Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="Hotel.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navba">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href=""> <img src="./images/a0f7a83a15c118ccc30153be55512370.jpg" width="10%" alt="">
+          Monkey</a>
+        <button class="navbar-toggler" data-bs-target="#navbarcontent" type="button" data-bs-toggle="collapse"
+          aria-controls="navbarcontend" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarcontent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#contact">Contact</a>
+            </li>
+
+
+          </ul>
+          <input class="mx-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-light mx-2  p-1" id="btnav">sign in</button>
+
+
+          <i class="bi bi-cart-plus  mx-2 text-light" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style="font-size: 25px;"></i>
+          <button" class="btn btn-outline-none bg-warning rounded-circle " style="position: relative;
+        right: 14px;
+        bottom: 9px;
+
+        font-size: 11px;
+        cursor: auto;" id="cart-count">0</button>
+
+        </div>
+
+
+      </div>
+    </nav>
+  </div>
+
+  
+    
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Add To Cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div id="cart">
+          <h5 class="text-center">Products</h5>
+          <ul id="cart-items" class="list-group">
+          </ul>
+          <p>Total: $<span id="total-price">0</span></p>
+      </div>
+  
+      </div>
+    </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+        <!-- home -->
+        <section id="home">
+          <h1 class="text-centre">Drunken Monkey Restaurant</h1>
+          <p>Own creatives,Healthy Foods, <br>
+            Enjoy visit in Every day! </p>
+          <div class="input-group ">
+            <input class="form-control " id="sea" type="text" placeholder="search">
+            <button class="btn btn-outline-light" id="bth"> Started</button>
+          </div>
+
+        </section>
+        <!-- about -->
+        <section id="about">
+          <div class="container-fluid">
+            <div class="row">
+              <div class=" col-lg-6  col-12 ">
+                <img class="image-fluid" src="./images/mono-que-tiene-dudas-con-su-computadora-portatil_1368-12580.jpg"
+                  width="100%" alt="">
+              </div>
+              <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-2 my-5" id="aboutus">
+                <h1>Served Every Day <br> Since 2020</h1>
+
+                <p class="my-5">Dranken Monkey Restaurant opened On Thanks giving day 2020. Chef/Owner Ashwin baking
+                  pies and selling them to Restaurants and his neighbours out of small kitchens then today sucessfully
+                  running lot of branches. owned manufacturing natural healthy foods only.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- Menu -->
+        <section id="menu">
+          <div class="container m-5">
+            <h1 class="text-center my-5"> Our Product</h1>
+            <div class="row">
+              <div class="col-lg-4 col-md-6  col-12">
+                <div class="card">
+                  <img src="./images/6bbaee5177896e00160de1c802d75525.jpg" width="20%" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="food-title">vegetables sanwitch</h5>
+                    <span class="food-price"> Rs.80</span><br>
+                    <button class="btn btn-primary add-to-cart" data-name="vegetables sanwitch" data-price="80" >Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                  <img src="./images/grlled vegetables skewers.jpg" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">grilled vegetables</h5>
+                    <span class="food-price"> Rs.80</span><br>
+                    <button class="btn btn-primary add-to-cart" data-name="grilled vegetables" data-price="80" >Add</button>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                  <img src="./images/crunchy beach mama.jpg" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">crunchy vegetables</h5>
+                    <span class="food-price"> Rs.80</span><br>
+                    <button class="btn btn-primary add-to-cart" data-name="crunchy vegetables" data-price="60"" >Add</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                  <img src="./images/crunchy beach mama.jpg" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">crunchy vegetables</h5>
+                    <span class="food-price"> Rs.80</span><br>
+                    <button class="btn btn-primary add-to-cart" data-name="crunchy vegetables" data-price="50"" >Add</button>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                  <img src="./images/25913848.jpg" width="20%" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">vegetables Salad</h5>
+                    <span class="food-price"> Rs.80</span><br>
+                    <button class="btn btn-primary add-to-cart" data-name="vegetables Salad" data-price="70" >Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                  <img src="./images/b86a7052b28ba79caa7325b6dd2bdedb--pizza.jpg" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title"> vegetables pizza</h5>
+                    <span class="food-price"> Rs.80</span><br>
+                    <button class="btn btn-primary add-to-cart" data-name=" vegetables pizza" data-price="90" >Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                  <img src="./images/fba3331e6e76154ad3d4c3160492f2f2.jpg" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Mixed grains</h5>
+                    <span class="food-price"> Rs.80</span><br>
+                    <!-- Add an id to the "Add" button -->
+                    <button class="btn btn-primary add-to-cart" data-name="Mixed grains" data-price="100" >Add</button>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                  <img src="./images/crunchy beach mama.jpg" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">crunchy vegetables</h5>
+                    <span class="food-price"> Rs.80</span><br>
+                    <button class="btn btn-primary add-to-cart" data-name="crunchy vegetables" data-price="100" >Add</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+          <div class="container box">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-12">
+                <img src="./images/gorilla-smoking-cigar-black-white-photo_14865-3018.jpg" class="image-fluid" alt="">
+              </div>
+              <div class="col-lg-6 col-md-6 col-12">
+                <h1>Contact</h1>
+                <form name="registration" class="mx-4 my-4" id="form" onsubmit="return validateForm()">
+                  <div>
+                      <input class="form-control" id="username" type="text" placeholder="Enter your name" onblur="validateUsername()">
+                      <p id="username-error" class="error text-light"></p>
+                  </div>
+                  <div>
+                      <input class="form-control" id="email" type="text" placeholder="Enter your E-mail" onblur="validateEmail()">
+                      <p id="email-error" class="error text-light"></p>
+                  </div>
+                  <div>
+                      <input class="form-control" id="password" type="password" placeholder="Enter your Password" onblur="validatePassword()">
+                      <p id="password-error" class="error text-light"></p>
+                  </div>
+                  <div>
+                      <textarea class="form-control" id="textarea" placeholder="Enter your Message" onblur="validateTextarea()"></textarea>
+                      <p id="textarea-error" class="error text-light"></p>
+                  </div>
+                 <Link > <button type="submit" class="form-control btn btn-outline-light">Submit</button></Link>
+              </form>
+                <div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        </section>
+
+        <!-- Features -->
+        <section id="Features">
+          <div class="container m-5">
+            <h1 class="text-center "> Our <span>features</span></h1>
+            <div class="row">
+              <div class="col-lg-4 col-md-8 col-12">
+                <div class="card">
+                  <img src="./images/38-387918_mickey-mouse-eating-png-mickey-mouse-with-vegetables.png"
+                    class="card-img-top" alt="">
+                  <div class="card-body text-center">
+                    <h5>HEALTHY AND FRESH FOOD</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis enim iure fuga ipsa.
+                      Volupt</span>
+                    <a href="#" class="btn btn-secondary">Read MOre</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col-lg-4 col-md-8 col-12">
+                <div class="card">
+                  <img src="./images/mickey-mouse-eating-money.webp" class="card-img-top" alt="">
+                  <div class="card-body text-center">
+                    <h5>EASYLY CASH PAYMENT</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis enim iure fuga ipsa.
+                      Volupt</span>
+                    <a href="#" class="btn btn-secondary">Read MOre</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col-lg-4 col-md-8 col-12">
+                <div class="card">
+                  <img
+                    src="./images/png-transparent-take-out-biryani-pizza-chinese-cuisine-delivery-pizza-delivery-food-vertebrate-eating.png"
+                    class="card-img-top" alt="">
+                  <div class="card-body text-center">
+                    <h5>FASTEST DELIVERY</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis enim iure fuga ipsa.
+                      Volupt</span>
+                    <a href="#" class="btn btn-secondary">Read MORE</a>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+        <footer>
+          <h1>copyright@ashwin</h1>
+
+
+        </footer>
+
+        <script src="hotel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,272 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+
+
+  
+ #navba {
+   
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    box-shadow: 5px 5px 20px rgba(0,0,0,3); 
+}
+
+  .navbar .navbar-brand {
+    font-size:35px;
+    color: goldenrod;
+    font-family: 'Tilt Prism',cursive;
+ }
+ #navbarcontend a{
+    font-size: 40px ;
+    color: white;
+    margin-right:17px;
+    
+    
+ }
+ 
+ 
+ #navbarcontend a:hover{
+    border-bottom: 2px solid;
+ }
+ #navbarcontend button{
+   width: 70px;
+   height: 30px;
+   font-size:15px;
+ }
+ #navbarcontend p{
+   color: aliceblue;
+ }
+ #count{
+   margin-right: 50px;
+   
+ }
+ .fa-solid {
+   color: goldenrod;
+   cursor:pointer;
+   
+   
+ }
+ nav .shopping-cart{
+   position: absolute;
+   top: 110%;
+   right: 2rem;
+   border-radius: 5rem;
+   
+ }
+
+
+
+
+
+
+
+ .fa-solid:hover{
+   color: azure;
+ }
+ #cart-count{
+   color: aliceblue;
+   
+ }
+ #btnav{
+   width: 90px;
+ }
+ 
+ section{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+ }
+ #home{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(./images/Monkey-Playing-Electric-Guitar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    
+    
+    
+
+ }
+ #home h1{
+    color:goldenrod;
+    font-size: 60px;
+    letter-spacing: 3px;
+    
+    text-shadow:0px 1px 0px blanchedalmond,
+    0px 1px 0px blanchedalmond,
+    0px 2px 0px blanchedalmond,
+    0px 3px 0px blanchedalmond,
+    0px 4px 0px blanchedalmond,
+    0px 5px 0px blanchedalmond,
+    0px 6px 0px blanchedalmond,
+    0px 7px 0px blanchedalmond;                  
+    
+ }
+ #home p{
+    color:papayawhip;
+    margin-top: 10px;
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-shadow:0px 1px 0px brown,
+    0px 2px 0px brown,
+    0px 3px 0px brown,
+    0px 4px 0px brown,
+    0px 5px 0px brown,
+    0px 6px 0px brown,
+    0px 7px 0px brown;
+
+ }
+ #home .input-group{
+    width: 30%;
+    height: 45px;
+    position: relative;
+    right:70px;
+    background: transparent;
+ }
+ #bth{
+ position: relative;
+ left: 5px;
+ border-radius:8px;
+ top: 5px;
+ height: 40px;
+ width: 90px;
+ }
+ #sea{
+   border-radius: 10px;
+   width: 100px;
+ }
+ 
+ #about h1{
+    font-size:70px;
+    font-weight: 800;
+    font-family:  cursive;
+ }
+ #about p{
+    font-size:25px;
+    color:red;
+    font-family:  cursive;
+ }
+ #menu{
+   background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(./images/790409.jpg);
+   background-position: center;
+   background-repeat:no-repeat;
+   background-size: cover;
+   
+ }
+ #menu h1{
+   font-size:70px;
+   font-weight: 700;
+   color: goldenrod;
+ }
+ #menu h5{
+   color:black;
+   font-weight: 500;
+
+ }
+#menu img{
+   width: 400px;
+   height: 300px;
+} 
+.card{
+   background-color:gainsboro;
+   border: none !important;
+   box-shadow: 15px 20px 20px rgba(0,0,0,0.3);
+              inset:  4px 10px black;
+              border-radius: 20px !important;
+              overflow: hidden;
+              justify-content: center;
+              align-items: center;
+              margin: 20px 60px;
+}
+.card:hover{box-shadow: inset 10px 5px 5px rgba(0,0,0,0.3);
+                      inset:  -0px -4px -10px black;           
+
+}
+
+#Features{
+   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(./images/1089135.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#Features h1{
+   font-size: 60px;
+   color:white;
+
+}
+#Features h1 span{
+   background: orange;
+   display: inline-block;
+   color: white;
+   clip-path: polygon(100% 0%,94% 50%,100% 95%,0% 95%,7% 50%,0% 0%);
+   
+}
+
+
+#contact{
+   background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)),url(./images/2845897.webp);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#contact img{
+   height: 70%;
+   margin-top: 50px;
+   width: 50%;
+   
+}
+#contact h1{
+   font-size: 60px;
+   color: palegreen;
+   text-shadow:0px 1px 0px black,
+    0px 2px 0px black,
+    0px 3px 0px black,
+    0px 4px 0px black,
+    0px 5px 0px black ,
+    0px 5px 0px  black,
+    0px 6px 0px  black,
+    0px 7px 0px black ;
+}
+.box{
+   width: 90% !important;
+   margin-top:10%;
+}
+form{
+   display: flex;
+   flex-direction: column;
+}
+#contact input{
+   margin: 10px 0px;
+   color: blueviolet !important;
+}
+#contact textarea{
+   margin: 10px 0px;
+}
+.input-contorl{
+   display: flex;
+   flex-direction: column;
+}
+.input-contorl .success input{
+   border-color: goldenrod;
+}
+.input-contorl .error input{
+   border-color: goldenrod;
+}
+footer{
+   height: 40px;
+   width: 100%;
+   background-color:wheat;
+   margin-top: -20px;
+   text-align: center;
+      
+}
+footer h1{
+color:brown;
+font-size: 20px;
+}
+
+  
